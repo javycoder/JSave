@@ -9,7 +9,7 @@ JSave是一款轻量级的键值对储存android工具库。
 JSave.init(context);
 ```
 
-###储存
+### 储存
 
 可以储存基本类型float,int,double,long等
 
@@ -60,7 +60,7 @@ JSave.put("object",tb);
 ```
 
 
-###读取
+### 读取
 
 ``` java
 String text=JSave.get("text");//
@@ -68,7 +68,7 @@ boolean boo=JSave.get("boolean");
 TestBean tb=JSave.get("object");
 ```
 
-###删除
+### 删除
 ``` java
 //我要删除key为"text"的储存
 JSave.put("text",null);
@@ -78,7 +78,7 @@ Boolean isSuccess=JSave.delete("text");
 int count=JSave.deleteAll();
 ```
 
-###修改
+### 修改
 
 ``` java
 //修改“text”的值为"SB"
