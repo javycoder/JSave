@@ -1,6 +1,6 @@
 # JSave for Android
 
-**[English](https://github.com/javycoder/JSave/edit/master/README_EN.md)**
+**[English](https://github.com/javycoder/JSave/blob/master/README_EN.md)**
 
 JSave是一款轻量级的键值对储存android工具库。
 
