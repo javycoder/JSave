@@ -2,6 +2,13 @@
 JSave是一款轻量级的键值对储存android工具库。
 
 ## 使用方法
+在Android Studio中的build.gradle中加入：
+
+``` groovy
+dependencies {
+compile 'javy.lib:JSave:1.0'
+}
+```
 
 在您的Application调用
 
@@ -84,3 +91,7 @@ int count=JSave.deleteAll();
 //修改“text”的值为"SB"
 JSave.put("text","SB");
 ```
+
+
+
+
